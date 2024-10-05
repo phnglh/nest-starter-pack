@@ -8,9 +8,9 @@ import { vi as viThemeConfig } from './config/theme/vi.config.mjs';
 
 export default defineUserConfig({
   lang: 'en-US',
-  title: 'NestJS boilerplate',
+  title: 'NestJS Starer Pack',
   description: 'NestJS boilerplate with best practices',
-  base: '/nestjs-boilerplate/',
+  base: '/dev-docs/',
   bundler: viteBundler(),
   markdown: {
     toc: {
@@ -20,15 +20,15 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'NestJS boilerplate 🎉',
+      title: 'Nest Starter Pack 🎉',
     },
     '/vi/': {
       lang: 'vi-VN',
-      title: 'NestJS boilerplate 🎉',
+      title: 'Nest Starter Pack 🎉',
     },
   },
   theme: defaultTheme({
-    repo: 'vndevteam/nestjs-boilerplate',
+    repo: 'phnglh/nest-starter-pack',
     docsBranch: 'main',
     docsDir: 'docs',
     locales: {
